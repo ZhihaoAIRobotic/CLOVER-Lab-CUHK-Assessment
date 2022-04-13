@@ -37,7 +37,7 @@ https://www.kaggle.com/datasets/oneoneliu/cornell-grasp
 
 The folders '1'-'9' are for training, and
 the folder '10' is for testing. To generate the ground truth for the network, 
-the data processing method are as follows:
+the data processing methods are as follows:
 
 **Grasp Quality**: Each ground-truth positive grasp from 
 the Cornell Grasping Dataset as a binary label and set
