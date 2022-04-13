@@ -1,7 +1,8 @@
 # CLOVER-Lab-CUHK-Assessment
 
 
-##Description
+Description
+-------
 Grasping is an important skill in our daily manipulation task. But it is still challenging for robots to perform grasping tasks in the
 unstructured environments in the real world. The goal of this task is to predict the quality and pose of
 grasps based on vision.   
@@ -23,7 +24,8 @@ to be executed at each point.
 ![](images/input_output.png)
 
 
-##Dataset
+Dataset
+-------
 We use cornell grasp dataset in this task. The dataset can be found here:
 https://www.kaggle.com/datasets/oneoneliu/cornell-grasp
 
@@ -47,5 +49,6 @@ in the range [−π/2,π/2].
 **Width**: Compute the width in 
 pixels (maximum of 150) of each grasping rectangle.
 
-##Evaluation
+Evaluation
+-------
 
