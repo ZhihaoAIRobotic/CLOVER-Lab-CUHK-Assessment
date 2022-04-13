@@ -5,7 +5,13 @@ Description
 -------
 Grasping is an important skill in our daily manipulation tasks. But it is still challenging for robots to grasp in the
 unstructured environments in the real world. The goal of this assessment is to predict the quality and pose of
-grasps based on vision.   
+grasps based on vision. 
+
+To be more specific, the task is to 
+train a network, the input for the 
+network is rgb data or rgbd data,
+the outputs are the quality and pose of
+grasps.
 
 **Grasp Representation**: Parameterised as a grasp quality, 
 angle and gripper width for every pixel in the input image
