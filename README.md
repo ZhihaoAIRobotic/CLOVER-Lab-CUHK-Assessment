@@ -29,14 +29,15 @@ Dataset
 We use cornell grasp dataset in this task. The dataset can be found here:
 https://www.kaggle.com/datasets/oneoneliu/cornell-grasp
 ![](images/cornell.png)
->*pcd\*.txt is point cloud file, pcd\*cneg.txt 
-> is negative label for grasp, 
-> pcd\*cpos.txt is positive label for grasp,
->pcd\*d.tiff is depth image,
->\*.png is raw rgb image.*
+>*pcd\*.txt are point cloud files, pcd\*cneg.txt 
+> are negative labels for grasp, 
+> pcd\*cpos.txt are positive labels for grasp,
+>pcd\*d.tiff are depth images,
+>\*.png are raw rgb images.*
 
-To generate the ground truth for the network, 
-the data process method are as follows:
+The folders '1'-'9' are for training, and
+the folder '10' is for testing. To generate the ground truth for the network, 
+the data processing method are as follows:
 
 **Grasp Quality**: Each ground-truth positive grasp from 
 the Cornell Grasping Dataset as a binary label and set
@@ -51,4 +52,24 @@ pixels (maximum of 150) of each grasping rectangle.
 
 Evaluation
 -------
+The task includes three parts, and there are some 
+subtasks for each part. 
+The evaluation will start after one weak. 
+Try to finish more subtasks in one weak. 
+If there are any problems, please feel free to 
+contact me (email: lizhihao@cuhk.edu.cn).
 
+**Data processing**
+- [ ] Dataset Generation for Grasp Quality
+- [ ] Dataset Generation for Angle
+- [ ] Dataset Generation for Width
+- [ ] Data loader
+- [ ] Data argumentation
+
+**Training**
+- [ ] Network for Grasp Quality
+- [ ] Network for Angle
+- [ ] Network for Width
+
+**Test**
+- [ ] Evaluate grasp success rate for test set
