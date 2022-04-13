@@ -10,8 +10,7 @@ grasps based on vision.
 To be more specific, the task is to 
 train a network, the input for the 
 network is rgb data or rgbd data,
-the outputs are the quality and pose of
-grasps.
+the outputs are parameterised grasps.
 
 **Grasp Representation**: Parameterised as a grasp quality, 
 angle and gripper width for every pixel in the input image
