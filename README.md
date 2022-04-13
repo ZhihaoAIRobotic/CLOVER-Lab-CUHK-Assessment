@@ -28,12 +28,12 @@ Dataset
 -------
 We use cornell grasp dataset in this task. The dataset can be found here:
 https://www.kaggle.com/datasets/oneoneliu/cornell-grasp
-
->pcd*.txt is point cloud file, pcd*cneg.txt 
+![](images/cornell.png)
+>*pcd\*.txt is point cloud file, pcd\*cneg.txt 
 > is negative label for grasp, 
-> pcd*cpos.txt is positive label for grasp,
->pcd*d.tiff is depth image,
->*.png is raw rgb image.
+> pcd\*cpos.txt is positive label for grasp,
+>pcd\*d.tiff is depth image,
+>\*.png is raw rgb image.*
 
 To generate the ground truth for the network, 
 the data process method are as follows:
