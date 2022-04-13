@@ -71,5 +71,5 @@ contact me (email: lizhihao@cuhk.edu.cn).
 - [ ] Network for Angle
 - [ ] Network for Width
 
-**Test**
+**Testing**
 - [ ] Evaluate grasp success rate for test set
