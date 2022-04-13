@@ -60,16 +60,16 @@ If there are any problems, please feel free to
 contact me (email: lizhihao@cuhk.edu.cn).
 
 **Data processing**
-- [ ] Dataset Generation for Grasp Quality
-- [ ] Dataset Generation for Angle
-- [ ] Dataset Generation for Width
+- [ ] Dataset generation for grasp quality
+- [ ] Dataset generation for angle
+- [ ] Dataset generation for width
 - [ ] Data loader
 - [ ] Data argumentation
 
 **Training**
-- [ ] Network for Grasp Quality
-- [ ] Network for Angle
-- [ ] Network for Width
+- [ ] Network for grasp quality
+- [ ] Network for angle
+- [ ] Network for width
 
 **Testing**
 - [ ] Evaluate grasp success rate for test set
