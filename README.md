@@ -3,7 +3,7 @@
 
 Description
 -------
-Grasping is an important skill in our daily manipulation tasks. But it is still challenging for robots in the
+Grasping is an important skill in our daily manipulation tasks. But it is still challenging for robots to grasp in the
 unstructured environments in the real world. The goal of this assessment is to predict the quality and pose of
 grasps based on vision.   
 
