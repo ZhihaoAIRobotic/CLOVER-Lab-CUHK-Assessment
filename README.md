@@ -22,7 +22,7 @@ be executed at each point.
 to be executed at each point.
 
 ![](images/input_output.png)
-
+>Morrison, Douglas, Peter Corke, and Jürgen Leitner. "Closing the loop for robotic grasping: A real-time, generative grasp synthesis approach." arXiv preprint arXiv:1804.05172 (2018).
 
 Dataset
 -------
