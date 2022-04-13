@@ -36,7 +36,7 @@ https://www.kaggle.com/datasets/oneoneliu/cornell-grasp
 >\*.png are raw rgb images.*
 
 The folders '1'-'9' are for training, and
-the folder '10' is for testing. To generate the ground truth for the network, 
+the folder '10' is for testing. To generate the ground truth for training, 
 the data processing methods are as follows:
 
 **Grasp Quality**: Each ground-truth positive grasp from 
