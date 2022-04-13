@@ -77,4 +77,4 @@ contact me (email: lizhihao@cuhk.edu.cn).
 - [ ] Network for width
 
 **Testing**
-- [ ] Evaluate grasp success rate for test set
+- [ ] Evaluate grasp success rate for test set (metric: loss)
